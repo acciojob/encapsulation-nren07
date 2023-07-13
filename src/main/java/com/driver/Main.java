@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         RWOnly obj=new RWOnly();
 //        obj.name="hello"; //name has private access in com.driver.RWOnly
-        obj.setters("Naren");
-        System.out.println(obj.getName());
+        obj.setter("name");
+        obj.getter();
     }
 }
